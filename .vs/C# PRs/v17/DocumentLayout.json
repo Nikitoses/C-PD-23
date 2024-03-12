@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\C# PRs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B506671-6366-4462-8D84-F2D14E919CE7}|PR_2\\Task_1\\Task_1.csproj|e:\\c# prs\\pr_2\\task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B506671-6366-4462-8D84-F2D14E919CE7}|PR_2\\Task_1\\Task_1.csproj|solutionrelative:pr_2\\task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB07CE96-C203-4BAB-A931-5977FB38F9E9}|PR_2\\Task_2\\Task_2.csproj|e:\\c# prs\\pr_2\\task_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB07CE96-C203-4BAB-A931-5977FB38F9E9}|PR_2\\Task_2\\Task_2.csproj|solutionrelative:pr_2\\task_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B8AA822-3222-4AAC-95E6-1F3F179F385A}|PR_2\\Task 4\\Task 4.csproj|e:\\c# prs\\pr_2\\task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B8AA822-3222-4AAC-95E6-1F3F179F385A}|PR_2\\Task 4\\Task 4.csproj|solutionrelative:pr_2\\task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54F72075-4412-4162-A68C-CA31B3035549}|PR_2\\Task_3\\Task_3.csproj|e:\\c# prs\\pr_2\\task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54F72075-4412-4162-A68C-CA31B3035549}|PR_2\\Task_3\\Task_3.csproj|solutionrelative:pr_2\\task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C# PRs\\PR_3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PR_3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C# PRs\\PR_2\\Task_3\\Program.cs",
-              "RelativeDocumentMoniker": "PR_2\\Task_3\\Program.cs",
-              "ToolTip": "E:\\C# PRs\\PR_2\\Task_3\\Program.cs",
-              "RelativeToolTip": "PR_2\\Task_3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:20:41.591Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C# PRs\\PR_2\\Task 4\\Program.cs",
-              "RelativeDocumentMoniker": "PR_2\\Task 4\\Program.cs",
-              "ToolTip": "E:\\C# PRs\\PR_2\\Task 4\\Program.cs",
-              "RelativeToolTip": "PR_2\\Task 4\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:22:01.685Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C# PRs\\PR_2\\Task_2\\Program.cs",
-              "RelativeDocumentMoniker": "PR_2\\Task_2\\Program.cs",
-              "ToolTip": "E:\\C# PRs\\PR_2\\Task_2\\Program.cs",
-              "RelativeToolTip": "PR_2\\Task_2\\Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAAEMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:19:49.397Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C# PRs\\PR_2\\Task_1\\Program.cs",
-              "RelativeDocumentMoniker": "PR_2\\Task_1\\Program.cs",
-              "ToolTip": "E:\\C# PRs\\PR_2\\Task_1\\Program.cs",
-              "RelativeToolTip": "PR_2\\Task_1\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACoAAAABAAAA",
+              "DocumentMoniker": "E:\\C# PRs\\PR_3\\Program.cs",
+              "RelativeDocumentMoniker": "PR_3\\Program.cs",
+              "ToolTip": "E:\\C# PRs\\PR_3\\Program.cs",
+              "RelativeToolTip": "PR_3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:19:16.914Z",
+              "WhenOpened": "2024-03-12T12:40:45.539Z",
               "EditorCaption": ""
             }
           ]
