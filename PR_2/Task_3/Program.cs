@@ -4,65 +4,52 @@ class Program
 {
     static void Main(string[] args)
     {
-        double side1, side2, side3;
+        int[] arrayX = new int[11] { 5, 2, 7, 1, 9, 3, 8, 4, 6, 11, 10, 3, 19, 21, 13, 14, 16 };
 
-        Console.WriteLine("Enter first side:");
-        side1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Array X:");
+        PrintArray(arrayX);
 
-        Console.WriteLine("Enter second side:");
-        side2 = Convert.ToDouble(Console.ReadLine());
+        int minValue = FindMinValue(arrayX);
+        Console.WriteLine($"Min: {minValue}");
 
-        Console.WriteLine("Enter third side:");
-        side3 = Convert.ToDouble(Console.ReadLine());
-
-        if (IsValidTriangle(side1, side2, side3))
-        {
-            double perimeter = CalculatePerimeter(side1, side2, side3);
-            Console.WriteLine($"Perimeter: {perimeter}");
-
-            double area = CalculateArea(side1, side2, side3);
-            Console.WriteLine($"Area: {area}");
-
-            string triangleType = DetermineTriangleType(side1, side2, side3);
-            Console.WriteLine($"Triangle Type {triangleType}");
-        }
-        else
-        {
-            Console.WriteLine("Triangle does not exist");
-        }
+        int maxValue = FindMaxValue(arrayX);
+        Console.WriteLine($"Max: {maxValue}");
 
         Console.ReadLine();
     }
 
-    static bool IsValidTriangle(double side1, double side2, double side3)
+    static void PrintArray(int[] arr)
     {
-        return side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1;
+        foreach (int element in arr)
+        {
+            Console.Write(element + " ");
+        }
+        Console.WriteLine();
     }
 
-    static double CalculatePerimeter(double side1, double side2, double side3)
+    static int FindMinValue(int[] arr)
     {
-        return side1 + side2 + side3;
+        int minValue = arr[0];
+        foreach (int element in arr)
+        {
+            if (element < minValue)
+            {
+                minValue = element;
+            }
+        }
+        return minValue;
     }
 
-    static double CalculateArea(double side1, double side2, double side3)
+    static int FindMaxValue(int[] arr)
     {
-        double s = (side1 + side2 + side3) / 2;
-        return Math.Sqrt(s * (s - side1) * (s - side2) * (s - side3));
-    }
-
-    static string DetermineTriangleType(double side1, double side2, double side3)
-    {
-        if (side1 == side2 && side2 == side3)
+        int maxValue = arr[0];
+        foreach (int element in arr)
         {
-            return "equilateral";
+            if (element > maxValue)
+            {
+                maxValue = element;
+            }
         }
-        else if (side1 == side2 || side1 == side3 || side2 == side3)
-        {
-            return "isoscalic";
-        }
-        else
-        {
-            return "notEquilateral";
-        }
+        return maxValue;
     }
 }
